@@ -7,7 +7,7 @@ import streamlit as st
 CLIENT_ID = ""
 CLIENT_SECRET = ""
 
-# Function for ramdom balloon animations
+# Function for random balloon animations
 def random_celeb():
     return random.choice([st.balloons()])
     
