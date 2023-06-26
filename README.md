@@ -9,8 +9,8 @@ This repository contains a Python script that allows you to download tracks, pla
 
 ## Setup
 ```
-git clone https://github.com/your-username/spotify-downloader.git
-cd spotify-downloader
+git clone https://github.com/your-username/Spotify-Downloader.git
+cd Spotify-Downloader
 pip install -r requirements.txt
 ```
 
@@ -34,7 +34,7 @@ To use the Spotify API for downloading tracks, playlists, and albums, you need t
 
 4. Update the credentials in the script:
 
-   - Open the Python script (e.g., `spotify_downloader.py`) in a text editor.
+   - Open the Python script (`main.py`) in a text editor.
    - Locate the `CLIENT_ID` and `CLIENT_SECRET` variables.
    - Replace the empty strings with your obtained credentials.
    - Save the changes.
@@ -54,7 +54,7 @@ Please note that downloading copyrighted content from Spotify may violate the te
 Made with Python3
 (C)itz-harshit 
 Copyright permission under MIT License
-License -> https://github.com/itz-harshit/translator//blob/main/LICENSE
+License -> https://github.com/itz-harshit/Spotify-Downloader//blob/main/LICENSE
 
 ```
 
