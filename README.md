@@ -41,3 +41,21 @@ To use the Spotify API for downloading tracks, playlists, and albums, you need t
 
 With the updated credentials, you will be able to authenticate your application and use the Spotify API for downloading music from Spotify.
 
+## Contributing 
+Contributions are welcome! If you find any issues or want to enhance the application, feel free to open an issue or submit a pull request.
+
+## License 
+---
+```
+
+Made with Python3
+(C)itz-harshit 
+Copyright permission under MIT License
+License -> https://github.com/itz-harshit/translator//blob/main/LICENSE
+
+```
+
+---
+## Credits
+
+- [Harshit Shrivastav](https://github.com/itz-harshit)
