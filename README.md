@@ -44,6 +44,9 @@ With the updated credentials, you will be able to authenticate your application 
 ## Contributing 
 Contributions are welcome! If you find any issues or want to enhance the application, feel free to open an issue or submit a pull request.
 
+## Disclaimer 
+Please note that downloading copyrighted content from Spotify may violate the terms of service and/or the rights of the content owners. Use this script responsibly and at your own risk.
+
 ## License 
 ---
 ```
