@@ -6,7 +6,7 @@ This repository contains a Python script that allows you to download tracks, pla
 
 - Python 3.6 or above
 - Savify library: Install it using `pip install savify`
-
+- streamlit library: Install it using `pip install streamlit`
 ## Setup
 ```
 git clone https://github.com/your-username/Spotify-Downloader.git
