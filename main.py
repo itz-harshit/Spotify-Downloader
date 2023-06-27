@@ -23,7 +23,7 @@ def track(url):
         st.success("Download completed!")
         st.audio(x, format='mp3')
     except Exception as e:
-        st.error(e)
+        st.error(f'Error in track{e})
         
 # Function to download Spotify playlist 
 def playlist(url):
@@ -63,5 +63,5 @@ if st.button("Download"):
                     st.warning('No Spotify url found')
             random_celeb()
         except Exception as e:
-            st.error(e)
+            st.error('Error {e}')
     
