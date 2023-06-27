@@ -18,7 +18,7 @@ s = Savify(api_credentials=(CLIENT_ID, CLIENT_SECRET),  quality=Quality.BEST, do
 # Function to download Spotify track
 def track(url):
     try:
-        st.info("Downloading...")
+        #st.info("Downloading...")
         x = s.download(url, query_type=Type.TRACK)
         st.success("Download completed!")
         st.audio(x, format='mp3')
