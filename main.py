@@ -2,6 +2,7 @@ from savify import Savify
 from savify.types import Type, Format, Quality
 import random
 import streamlit as st 
+from savify.utils import PathHolder
 
 # Defining some global variables 
 CLIENT_ID = "247fd1f6c43e4edb8c5c15feef83fd55"
@@ -12,7 +13,7 @@ def random_celeb():
     return random.choice([st.balloons()])
     
 # setting up Spotify client 
-s = Savify(api_credentials=(CLIENT_ID, CLIENT_SECRET),  quality=Quality.BEST, download_format=Format.MP3, path_holder=PathHolder(downloads_path='path/for/downloads'))
+s = Savify(api_credentials=(CLIENT_ID, CLIENT_SECRET),  quality=Quality.BEST, download_format=Format.MP3, path_holder=PathHolder(downloads_path='app/downloads'))
 
 # Function to download Spotify track
 def track(url):
