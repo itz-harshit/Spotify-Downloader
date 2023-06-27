@@ -1,4 +1,4 @@
-path_holder=PathHolder(downloads_path='path/for/downloads')from savify import Savify
+from savify import Savify
 from savify.types import Type, Format, Quality
 import random
 import streamlit as st 
@@ -12,7 +12,7 @@ def random_celeb():
     return random.choice([st.balloons()])
     
 # setting up Spotify client 
-s = Savify(api_credentials=(CLIENT_ID, CLIENT_SECRET),  quality=Quality.BEST, download_format=Format.MP3)
+s = Savify(api_credentials=(CLIENT_ID, CLIENT_SECRET),  quality=Quality.BEST, download_format=Format.MP3, path_holder=PathHolder(downloads_path='path/for/downloads'))
 
 # Function to download Spotify track
 def track(url):
