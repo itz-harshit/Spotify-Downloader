@@ -4,8 +4,8 @@ import random
 import streamlit as st 
 
 # Defining some global variables 
-CLIENT_ID = ""
-CLIENT_SECRET = ""
+CLIENT_ID = "247fd1f6c43e4edb8c5c15feef83fd55"
+CLIENT_SECRET = "806cc69b9426403091a281a41178536e"
 
 # Function for random balloon animations
 def random_celeb():
@@ -56,8 +56,10 @@ if st.button("Download"):
                     playlist(url)
                 elif 'album' in url:
                     album(url)
-                else:
+                elif track in url:
                     track(url)
+                else:
+                    st.warning('No Spotify url found')
             random_celeb()
         except Exception as e:
             st.error(e)
