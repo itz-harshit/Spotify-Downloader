@@ -57,7 +57,7 @@ if st.button("Download"):
                     playlist(url)
                 elif 'album' in url:
                     album(url)
-                elif track in url:
+                elif 'track' in url:
                     track(url)
                 else:
                     st.warning('No Spotify url found')
